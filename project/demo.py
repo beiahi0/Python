@@ -9,9 +9,10 @@ def main():
         split_file = os.path.splitext(filename)
         root, ext = split_file
         os.rename(
-            os.path.join(work_dir, filename), os.path.join(work_dir, str(id) + "." + ext)
+            os.path.join(work_dir, filename),
+            os.path.join(work_dir, str(id) + "." + ext),
         )
-    
+
     print(os.listdir(work_dir))
 
     print(work_dir)
