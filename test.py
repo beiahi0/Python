@@ -1,0 +1,6 @@
+import fpdf 
+
+PDF = fpdf()
+
+
+
